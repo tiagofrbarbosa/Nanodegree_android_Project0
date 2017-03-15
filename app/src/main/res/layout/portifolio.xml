@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#EEEEEE">
+
+
+    <TextView
+        android:text="@string/myapps_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:fontFamily="cursive"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="#EEEEEE">
+
+
+            <Button
+                android:id="@+id/filmes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/filmes"
+                android:background="#FF5722"
+                android:layout_marginBottom="5dp"
+                android:onClick="click_project"/>
+
+            <Button
+                android:id="@+id/stock_hawk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/stock_hawk"
+                android:background="#FF5722"
+                android:layout_marginBottom="5dp"
+                android:onClick="click_project"/>
+
+            <Button
+                android:id="@+id/big"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/maior"
+                android:background="#FF5722"
+                android:layout_marginBottom="5dp"
+                android:onClick="click_project"/>
+
+            <Button
+                android:id="@+id/appmaterial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/material"
+                android:background="#FF5722"
+                android:layout_marginBottom="5dp"
+                android:onClick="click_project"/>
+
+            <Button
+                android:id="@+id/onipresente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/onipresente"
+                android:background="#FF5722"
+                android:layout_marginBottom="5dp"
+                android:onClick="click_project"/>
+
+            <Button
+                android:id="@+id/capstone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/capstone"
+                android:background="#FF5722"
+                android:layout_marginBottom="5dp"
+                android:onClick="click_project"/>
+
+        </LinearLayout>
+
+</LinearLayout>
